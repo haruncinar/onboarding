@@ -1,17 +1,11 @@
 package com.bank.customer.onboarding.service;
 
 import com.bank.customer.onboarding.model.entity.Customer;
-import com.bank.customer.onboarding.model.exception.CountryNotAllowedException;
-import com.bank.customer.onboarding.model.exception.InsufficientAddressException;
-import com.bank.customer.onboarding.model.exception.UserAgeNotAllowedException;
-import com.bank.customer.onboarding.model.exception.UserExistException;
 import com.bank.customer.onboarding.model.request.LogonRequest;
 import com.bank.customer.onboarding.model.request.RegistrationRequest;
 import com.bank.customer.onboarding.model.request.TokenRequest;
 import com.bank.customer.onboarding.model.response.LogonResponse;
 import com.bank.customer.onboarding.model.response.TokenResponse;
-import com.bank.customer.onboarding.service.CustomerDetailService;
-import com.bank.customer.onboarding.service.RegistrationService;
 import com.bank.customer.onboarding.stubbuilder.RegistrationRequestBuilder;
 import com.bank.customer.onboarding.util.Constants;
 import org.junit.jupiter.api.*;

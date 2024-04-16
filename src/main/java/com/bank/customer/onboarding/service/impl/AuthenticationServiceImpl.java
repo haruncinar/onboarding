@@ -10,15 +10,12 @@ import com.bank.customer.onboarding.service.*;
 import com.bank.customer.onboarding.util.Constants;
 import com.bank.customer.onboarding.util.JwtUtil;
 import lombok.AllArgsConstructor;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.stereotype.Service;
 
 
 @Service
 @AllArgsConstructor
 public class AuthenticationServiceImpl implements AuthenticationService {
-
-    private final AuthenticationManager authenticationManager;
 
     private final CustomerDetailService customerDetailService;
 
