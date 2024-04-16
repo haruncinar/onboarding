@@ -1,7 +1,7 @@
  This is the db arch. that i have used at the beginning. 
  There are some changes on it, but it still gives good ideas about table structures and relations
  i could not refresh it (because lack of time)
-![img.png](img.png)
+![img.png](onboarding/img.png)
 
 ## To start the application on a docker container you should follow the steps below:
 
